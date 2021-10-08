@@ -10,6 +10,13 @@ public class Compte {
 		this.numCompte = numCompte;
 		this.soldeCompte = d;
 	}
+
+	@Override
+	public String toString() {
+		return "Compte [numCompte=" + numCompte + ", soldeCompte=" + soldeCompte + "]";
+	}
+	
+	
 		
 
 }
