@@ -18,6 +18,40 @@ public class AdressePostale {
 		this.ville = ville;
 	}
 
+	//Getter & setter***********************************
+
+	public String getNumRue() {
+		return numRue;
+	}
+
+	public void setNumRue(String numRue) {
+		this.numRue = numRue;
+	}
+
+	public String getLibelRue() {
+		return libelRue;
+	}
+
+	public void setLibelRue(String libelRue) {
+		this.libelRue = libelRue;
+	}
+
+	public int getCodePostal() {
+		return codePostal;
+	}
+
+	public void setCodePostal(int codePostal) {
+		this.codePostal = codePostal;
+	}
+
+	public String getVille() {
+		return ville;
+	}
+
+	public void setVille(String ville) {
+		this.ville = ville;
+	}
+	//Méthodes à suivre**************************
 
 
 	@Override
