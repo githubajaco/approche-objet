@@ -1,12 +1,16 @@
-package entites2;
-
-import entites.AdressePostale;
+package entites;
 
 public class Personne {
 	
-	public String nom;
+	private String nom;
 	private String prenom;
 	private AdressePostale adrpost;
+	
+	public Personne(String nom, String prenom) {
+		
+		this.nom = nom;
+		this.prenom = prenom;
+	}
 	
 	public Personne(String nom, String prenom, AdressePostale adrpost) {
 		
