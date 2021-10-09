@@ -9,6 +9,14 @@ public class Compte {
 		super();
 		this.numCompte = numCompte;
 		this.soldeCompte = d;
+	}	
+
+	public int getNumCompte() {
+		return numCompte;
+	}
+
+	public double getSoldeCompte() {
+		return soldeCompte;
 	}
 
 	@Override
@@ -16,7 +24,7 @@ public class Compte {
 		return "Compte [numCompte=" + numCompte + ", soldeCompte=" + soldeCompte + "]";
 	}
 	
-	
+
 		
 
 }
